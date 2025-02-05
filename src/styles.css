@@ -1,3 +1,32 @@
 body{
     background-color: whitesmoke;
+    background-image: url(/public/img/bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat ;
+    min-height:100vh;
+
+}
+.hero span{
+    color:rgb(206, 32, 9)
+}
+
+
+.card{
+    backdrop-filter: blur(15px);
+    max-width: 800px;
+    height:auto;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border: 1px solid orangered;
+    border-radius: 10px;
+    margin-top: 30px;
+    color: rgb(2, 27, 14);
+    margin:auto;
+    }
+.card h2{
+    color:rgb(4, 70, 34);
+    text-decoration: underline;
+    font-size: 1.2em;
+
 }
