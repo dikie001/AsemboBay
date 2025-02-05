@@ -1,0 +1,12 @@
+*{
+    
+    box-sizing: border-box;
+
+}
+nav{
+    margin-bottom: 300px;
+    z-index: 1000;
+  
+}
+
+
