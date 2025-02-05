@@ -3,10 +3,71 @@
     box-sizing: border-box;
 
 }
-nav{
+.nav-bar{
     margin-bottom: 300px;
     z-index: 1000;
+
   
 }
+nav ul li{
+    border-bottom: 3px solid transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
+    transition: 0.3s ease;
+}
+nav ul li:hover{
+    border-bottom: 3px solid orangered;
+}
+nav ul li:active{
+    transform: scale(0.8);
+}
+nav h1{
+    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nav-menu{
+    background-color: rgb(7, 53, 105);
+    width: 300px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    position:absolute;
+    z-index: 1001;
+    top: 60px;
+    right:10px;
+    height:auto;
+    
+   
+}
 
+.kuku{
+    display:flex;
 
+}
+.nav-menu ul{
+    margin-bottom: 10px;
+}
+.small-menu .hidden{
+    display: none;
+}
+.nav-menu ul li{
+    margin-bottom: 6px;
+    border-bottom: 3px solid transparent;
+}
+.nav-menu ul li:not(.contact):hover{
+    color:rgb(0, 0, 0);
+    border-bottom: 3px solid hsla(0, 100%, 44%, 0.76);
+}
+.contact{
+    background-color: orangered;
+    padding: 6px;
+    border-radius: 25px;
+    transition: 0.3s ease;
+}
+.contact:hover{
+    color:rgb(104, 4, 4)
+}
+.contact:active{
+    transform: scale(0.9);
+}
