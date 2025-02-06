@@ -9,6 +9,7 @@ import { Navbar } from "./Navbar/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Recipes from "./components/Recipes";
 import Blogs from "./components/Blogs";
+import { Order } from "./components/Order";
 
 function App() {
  
@@ -19,7 +20,7 @@ function App() {
   <Routes>
     <Route path="/" element={<Hero/>}/>
     <Route path="/about" element={<About/>}/>  
-    
+    <Route path="/order" element={<Order/>}/>
     <Route path="/contact" element={<Contact/>}/>
     <Route path="/products" element={<Products/>}/>
     <Route path="/recipes" element={<Recipes/>}/>

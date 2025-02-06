@@ -15,7 +15,7 @@ export const Navbar = () => {
       
         <div className="container mx-auto flex justify-between items-center">
          
-          <h1><Link to="/" className="text-3xl  text-orange-600 font-bold md:text-5xl ">Asembo Chics </Link></h1>
+          <h1><Link to="/" className="text-3xl  text-orange-600 font-extrabold md:text-4xl ml-1 ">Asembo Chics </Link></h1>
         
           <ul className="hidden md:flex space-x-6 ">
             <li><Link to="/" className="cursor-pointer ">Home</Link></li>
