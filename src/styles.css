@@ -22,10 +22,10 @@ body {
 
   color: rgb(0, 0, 0);
   margin: auto;
-  transition: 0.3s ease;
+  transition: 0.6s ease;
 }
 .card:hover {
-  transform: scale(1.05);
+  transform: scale(1.02);
   border: 1px solid rgb(0, 238, 255);
 }
 .card h2 {
